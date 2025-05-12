@@ -10,6 +10,6 @@ namespace My_Books.Data
 
         }
 
-        public DbSet<Book> Books { get; set; }   
+        public DbSet<Book> Book { get; set; }   
     }
 }
