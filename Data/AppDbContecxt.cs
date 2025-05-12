@@ -10,6 +10,16 @@ namespace My_Books.Data
 
         }
 
-        public DbSet<Book> Book { get; set; }   
+        public DbSet<Book> Book { get; set; }
+
+        #region Code to get data using Procedure
+        public async Task<List<Book>> GetBooksUsingSP()
+        {
+            return await Book
+                .FromSqlRaw("EXEC sp_Book_CRUD @Status = {0}", "G")
+                .ToListAsync();
+        }
+        #endregion
+
     }
 }
