@@ -3,16 +3,28 @@
   "WorkspaceRootPath": "D:\\My Practice\\Core_API_udemy_Qionnox\\My-Books\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{68DE9AD6-1302-4638-A1E2-8FC6F5BCCC4D}|My-Books.csproj|d:\\my practice\\core_api_udemy_qionnox\\my-books\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68DE9AD6-1302-4638-A1E2-8FC6F5BCCC4D}|My-Books.csproj|solutionrelative:controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68DE9AD6-1302-4638-A1E2-8FC6F5BCCC4D}|My-Books.csproj|d:\\my practice\\core_api_udemy_qionnox\\my-books\\data\\appdbcontecxt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68DE9AD6-1302-4638-A1E2-8FC6F5BCCC4D}|My-Books.csproj|solutionrelative:data\\appdbcontecxt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68DE9AD6-1302-4638-A1E2-8FC6F5BCCC4D}|My-Books.csproj|d:\\my practice\\core_api_udemy_qionnox\\my-books\\data\\models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68DE9AD6-1302-4638-A1E2-8FC6F5BCCC4D}|My-Books.csproj|solutionrelative:data\\models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68DE9AD6-1302-4638-A1E2-8FC6F5BCCC4D}|My-Books.csproj|d:\\my practice\\core_api_udemy_qionnox\\my-books\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{68DE9AD6-1302-4638-A1E2-8FC6F5BCCC4D}|My-Books.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{68DE9AD6-1302-4638-A1E2-8FC6F5BCCC4D}|My-Books.csproj|d:\\my practice\\core_api_udemy_qionnox\\my-books\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{68DE9AD6-1302-4638-A1E2-8FC6F5BCCC4D}|My-Books.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{68DE9AD6-1302-4638-A1E2-8FC6F5BCCC4D}|My-Books.csproj|d:\\my practice\\core_api_udemy_qionnox\\my-books\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{68DE9AD6-1302-4638-A1E2-8FC6F5BCCC4D}|My-Books.csproj|solutionrelative:weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{68DE9AD6-1302-4638-A1E2-8FC6F5BCCC4D}|My-Books.csproj|d:\\my practice\\core_api_udemy_qionnox\\my-books\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{68DE9AD6-1302-4638-A1E2-8FC6F5BCCC4D}|My-Books.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,46 +34,80 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "D:\\My Practice\\Core_API_udemy_Qionnox\\My-Books\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "Controllers\\WeatherForecastController.cs",
+              "ToolTip": "D:\\My Practice\\Core_API_udemy_Qionnox\\My-Books\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "Controllers\\WeatherForecastController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T05:59:09.445Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "WeatherForecast.cs",
               "DocumentMoniker": "D:\\My Practice\\Core_API_udemy_Qionnox\\My-Books\\WeatherForecast.cs",
               "RelativeDocumentMoniker": "WeatherForecast.cs",
               "ToolTip": "D:\\My Practice\\Core_API_udemy_Qionnox\\My-Books\\WeatherForecast.cs",
               "RelativeToolTip": "WeatherForecast.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-08T11:09:39.85Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\My Practice\\Core_API_udemy_Qionnox\\My-Books\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "D:\\My Practice\\Core_API_udemy_Qionnox\\My-Books\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-08T11:09:30.41Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-12T05:58:55.734Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "Book.cs",
+              "DocumentMoniker": "D:\\My Practice\\Core_API_udemy_Qionnox\\My-Books\\Data\\Models\\Book.cs",
+              "RelativeDocumentMoniker": "Data\\Models\\Book.cs",
+              "ToolTip": "D:\\My Practice\\Core_API_udemy_Qionnox\\My-Books\\Data\\Models\\Book.cs",
+              "RelativeToolTip": "Data\\Models\\Book.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T05:58:18.084Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AppDbContecxt.cs",
+              "DocumentMoniker": "D:\\My Practice\\Core_API_udemy_Qionnox\\My-Books\\Data\\AppDbContecxt.cs",
+              "RelativeDocumentMoniker": "Data\\AppDbContecxt.cs",
+              "ToolTip": "D:\\My Practice\\Core_API_udemy_Qionnox\\My-Books\\Data\\AppDbContecxt.cs",
+              "RelativeToolTip": "Data\\AppDbContecxt.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T05:57:22.037Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\My Practice\\Core_API_udemy_Qionnox\\My-Books\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
               "ToolTip": "D:\\My Practice\\Core_API_udemy_Qionnox\\My-Books\\appsettings.json",
               "RelativeToolTip": "appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAACPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-05-08T11:09:25.059Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-09T16:00:01.615Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\My Practice\\Core_API_udemy_Qionnox\\My-Books\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\My Practice\\Core_API_udemy_Qionnox\\My-Books\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-09T08:24:43.171Z"
             }
           ]
         }

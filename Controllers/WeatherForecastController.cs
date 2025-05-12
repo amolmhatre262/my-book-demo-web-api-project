@@ -9,35 +9,7 @@ namespace My_Books.Controllers
     [Route("[controller]")]
     public class WeatherForecastController : ControllerBase
     {
-        #region Existing code
-
-        //private static readonly string[] Summaries = new[]
-        //{
-        //    "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
-        //};
-
-        //private readonly ILogger<WeatherForecastController> _logger;
-
-        //public WeatherForecastController(ILogger<WeatherForecastController> logger)
-        //{
-        //    _logger = logger;
-        //}
-
-        //[HttpGet(Name = "GetWeatherForecast")]
-        //public IEnumerable<WeatherForecast> Get()
-        //{
-        //    return Enumerable.Range(1, 5).Select(index => new WeatherForecast
-        //    {
-        //        Date = DateOnly.FromDateTime(DateTime.Now.AddDays(index)),
-        //        TemperatureC = Random.Shared.Next(-20, 55),
-        //        Summary = Summaries[Random.Shared.Next(Summaries.Length)]
-        //    })
-        //    .ToArray();
-        //}
-
-        #endregion
-
-        #region New Code
+        #region Code get data from table
 
         private readonly AppDbContext _context;
 
@@ -54,6 +26,77 @@ namespace My_Books.Controllers
 
         #endregion
 
+        #region Code Insert data into table
+
+        [HttpPost]
+        public async Task<IActionResult> AddBook([FromBody] Book book)
+        {
+            if (!ModelState.IsValid)
+                return BadRequest(ModelState);
+
+            book.DateAdded = DateTime.Now;
+
+            await _context.Book.AddAsync(book);
+            await _context.SaveChangesAsync();
+
+            return Ok(book); // or return CreatedAtAction(...) if you want to return 201
+        }
+
+        #endregion
+
+        #region Code Update data in table
+
+        [HttpPut("{id}")]
+        public async Task<IActionResult> UpdateBookById(int id, [FromBody] Book updatedBook)
+        {
+            if (id != updatedBook.ID)
+                return BadRequest("Book ID mismatch");
+
+            var book = await _context.Book.FindAsync(id);
+            if (book == null)
+                return NotFound("Book not found");
+
+            // Update properties
+            book.Title = updatedBook.Title;
+            book.Description = updatedBook.Description;
+            book.IsRead = updatedBook.IsRead;
+            book.DateRead = updatedBook.DateRead;
+            book.Rate = updatedBook.Rate;
+            book.Gener = updatedBook.Gener;
+            book.Author = updatedBook.Author;
+            book.CoverURL = updatedBook.CoverURL;
+
+            try
+            {
+                await _context.SaveChangesAsync();
+            }
+            catch (DbUpdateConcurrencyException)
+            {
+                return StatusCode(500, "Error updating the book.");
+            }
+
+            return NoContent();
+        }
+        #endregion
+
+        #region Code Delete data from table
+        [HttpDelete("{id}")]
+        public async Task<IActionResult> DeleteBookById(int id)
+        {
+            var book = await _context.Book.FindAsync(id);
+
+            if (book == null)
+                return NotFound("Book not found");
+
+            _context.Book.Remove(book);
+            await _context.SaveChangesAsync();
+
+            return Ok("Book deleted successfully");
+        }
+
+        #endregion
+
+        
 
     }
 }

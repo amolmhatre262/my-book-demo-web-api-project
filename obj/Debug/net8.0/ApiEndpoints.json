@@ -1,7 +1,7 @@
 [
   {
     "ContainingType": "My_Books.Controllers.WeatherForecastController",
-    "Method": "Get",
+    "Method": "GetBooks",
     "RelativePath": "WeatherForecast",
     "HttpMethod": "GET",
     "IsController": true,
@@ -9,7 +9,7 @@
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[My_Books.WeatherForecast, My-Books, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[My_Books.Data.Models.Book, My-Books, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -17,7 +17,6 @@
         ],
         "StatusCode": 200
       }
-    ],
-    "EndpointName": "GetWeatherForecast"
+    ]
   }
 ]
